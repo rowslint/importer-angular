@@ -1,0 +1,8 @@
+<rowslint-element
+  *ngIf="isProvided"
+  [apiKey]="options.apiKey"
+  [config]="config"
+  [file]="file"
+  [showButton]="showButton"
+  (import)="onImport($event)"
+></rowslint-element>

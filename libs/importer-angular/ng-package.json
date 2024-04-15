@@ -1,0 +1,13 @@
+{
+  "$schema": "../../node_modules/ng-packagr/ng-package.schema.json",
+  "allowedNonPeerDependencies": [
+    "@angular-extensions/elements"
+  ],
+  "dest": "../../dist/libs/importer-angular",
+  "lib": {
+    "entryFile": "src/index.ts",
+    "umdModuleIds": {
+      "@angular-extensions/elements": "@angular-extensions/elements"
+    }
+  }
+}
